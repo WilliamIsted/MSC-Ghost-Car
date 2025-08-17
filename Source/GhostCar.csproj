@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <OutputPath>bin\Release</OutputPath>
+    <RootNamespace>GhostCar</RootNamespace>
+    <AssemblyName>Ghost Car</AssemblyName>
+    <OutputType>Library</OutputType>
+    <Nullable>disable</Nullable>
+    <LangVersion>7.0</LangVersion>
+
+    <MSCManagedDir>$(MSCManagedDir)</MSCManagedDir>
+    <DocumentationFile>bin\Release\GhostCar.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="**\*_ORIG.cs" />
+    <Compile Remove="**\*_OLD.cs" />
+    <None Remove="**\*_ORIG.cs" />
+    <None Remove="**\*_OLD.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>$(MSCManagedDir)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="MSCLoader">
+      <HintPath>$(MSCManagedDir)\MSCLoader.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(MSCManagedDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>$(MSCManagedDir)\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="cInput">
+      <HintPath>$(MSCManagedDir)\cInput.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>$(MSCManagedDir)\PlayMaker.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(MSCManagedDir)\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(MSCManagedDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Import Project="Properties\LocalSettings.props" Condition="Exists('Properties\LocalSettings.props')" />
+  <Target Name="CopyDll" AfterTargets="Build">
+
+    <Message Text="Terminate My Summer Car" Importance="high" />
+    <Exec Command="taskkill /F /IM mysummercar.exe" IgnoreExitCode="true" />
+      
+    <Message Text="Copying $(TargetPath) to $(MySummerCarModsPath)" Importance="high" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MySummerCarModsPath)" SkipUnchangedFiles="false" />
+
+    <Message Text="Copying Rally Save" Importance="high" />
+    <Copy SourceFiles="C:\Users\Admin\Downloads\Rally_Saves_1a564f9c\satsuma\defaultES2File.txt" DestinationFolder="C:\Users\Admin\AppData\LocalLow\Amistech\My Summer Car" SkipUnchangedFiles="false" />
+    <Copy SourceFiles="C:\Users\Admin\Downloads\Rally_Saves_1a564f9c\satsuma\items.txt" DestinationFolder="C:\Users\Admin\AppData\LocalLow\Amistech\My Summer Car" SkipUnchangedFiles="false" />
+
+    <Exec Command="ping 127.0.0.1 -n 2 &gt; nul" />
+    <Message Text="Launch My Summer Car" Importance="high" />
+    <Exec Command="cmd /c start steam://rungameid/516750" />
+
+  </Target>
+
+</Project>

@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <MySummerCarModsPath>G:\SteamLibrary\steamapps\common\My Summer Car\Mods\</MySummerCarModsPath>
+	<MySummerCarExePath>G:\SteamLibrary\steamapps\common\My Summer Car\mysummercar.exe</MySummerCarExePath>
+  </PropertyGroup>
+</Project>

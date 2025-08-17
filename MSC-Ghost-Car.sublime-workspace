@@ -1,0 +1,277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"View Package File"
+			],
+			[
+				"Package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Acti",
+				"Material Theme: Activate theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 224.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Admin/GitHub/MSC-Ghost-Car"
+	],
+	"file_history":
+	[
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/MSC - Twitch Integration.sln",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/MSC - Twitch Integration.csproj",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Assets/MSCTwitchIntegration/All Events.txt",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/MSCTI.cs",
+		"/C/Users/Admin/Documents/Gina Gnomes/indexTTS_NEW.html",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Assets/MSCTwitchIntegration/log_20250810_220336.txt",
+		"/C/Users/Admin/Downloads/items.txt",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Assets/MSCTwitchIntegration/log_20250810_164959.txt",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/MSCTI_ORIG.cs",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Assets/MSCTwitchIntegration/config.json",
+		"/C/Users/Admin/Downloads/PingCheck.ps1",
+		"/C/Users/Admin/Downloads/ping_2025-08-06_12-56-37.log",
+		"/C/Users/Admin/Downloads/ping.log",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/BaseEffect.cs",
+		"/C/Users/Admin/GitHub/MSCTI-WI-TwitchConnector/Source/Twitch Connector.csproj",
+		"/C/Users/Admin/GitHub/MSCTI-WI-TwitchConnector/Source/Properties/AssemblyInfo.cs",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/MSCTI_OLD.cs",
+		"/C/Users/Admin/Downloads/classic.css",
+		"/C/Users/Admin/Downloads/test.html",
+		"/C/Users/Admin/Downloads/move-transition-3.1.5-windows/data/obs-plugins/move-transition/effects/unorm.effect",
+		"/C/Users/Admin/Downloads/move-transition-3.1.5-windows/obs-plugins/32bit/move-transition.pdb",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/EffectsManager_ORIG.cs",
+		"/C/Users/Admin/GitHub/MSCTI-WI/docfx_ORIG/docfx.json",
+		"/C/Users/Admin/GitHub/MSCTI-WI/docfx/docfx.json",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/Effects.cs",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Assets/MSCTwitchIntegration/DEATH_EVENTS.txt",
+		"/C/Users/Admin/GitHub/MSCTI-WI/docfx.json",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Assets/MSCTwitchIntegration/EVENTS.txt",
+		"/C/Users/Admin/Downloads/Traducao_SatsumaManual_PTBR/InstalarTraducaoSatsumaManual.bat",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Docs/introduction.md",
+		"/C/Users/Admin/GitHub/MSCTI-WI/_site/logo.svg",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/bin/Release/MSCTwitchIntegration.xml",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/EffectsManager.cs",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Source/bin/Release/net35/MSCTwitchIntegration.xml",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Assets/MSCTwitchIntegration/commands.txt",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Assets/MSCTwitchIntegration/timelog.txt",
+		"/C/Users/Admin/GitHub/MSCTI/Project/MSCTwitchIntegration.csproj",
+		"/C/ProgramData/Unity/Unity_v5.x.ulf.backup",
+		"/C/Users/Admin/GitHub/MSCTI-WI/README.md",
+		"/C/Users/Admin/Downloads/Unity_v5.x.ulf",
+		"/C/Users/Admin/GitHub/MSCTI-WI/Resources/mscti_canvas.unity3d",
+		"/C/ProgramData/Unity/Unity_lic.ulf",
+		"/C/Users/Admin/GitHub/MSCTI/README.md",
+		"/C/Users/Admin/GitHub/MSCTI/Project/Lookup.cs",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/MSCTI Logfile.txt",
+		"/C/Users/Admin/GitHub/MSCTI-WI/.gitignore",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Config/Mod Settings/MSCLoader_Console/keybinds.json",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Config/Mod Settings/MSCLoader_Console/settings.json",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Config/Mod Settings/MSCLoader_Settings/settings.json",
+		"/G/SteamLibrary/steamapps/common/My Summer Car/Mods/Config/Mod Settings/MSCTwitchIntegration/settings.json",
+		"/C/Users/Admin/Downloads/stupidshit/stupidshit/Form1.cs",
+		"/C/Users/Admin/AppData/Local/11bitstudios/TheAlters/EOS/Saved/Logs/TheAlters.log",
+		"/C/Users/Admin/AppData/Local/11bitstudios/TheAlters/EOS/Saved/Logs/TheAlters-backup-2025.06.28-23.24.07.log",
+		"/C/Users/Admin/AppData/Local/11bitstudios/TheAlters/EOS/Saved/SaveGames/b4f32743bb264d3aa36281b1e6a317b6/0DD9NI6QO83VVO20HLI6V20T8-ACT2-day-65-v-6.sav",
+		"/C/Users/Admin/Downloads/MSCTI Configurator NEW SOURCE/bin/Release/net8.0-windows/received_payload.json",
+		"/C/Users/Admin/Downloads/MSCTI Configurator NEW SOURCE/obj/project.assets.json",
+		"/C/Users/Admin/GitHub/MSCTI/Project/HookInteractions.cs",
+		"/C/Users/Admin/GitHub/MSCTI/Project/Properties/LocalSettings.props",
+		"/C/Users/Admin/GitHub/MSCTI/Project/GameAction.cs",
+		"/C/Users/Admin/GitHub/MSCTI/Project/MSCTwitchIntegration.cs",
+		"/C/Users/Admin/GitHub/MSCTI/Project/MSCTwitchIntegration.sln",
+		"/C/Users/Admin/GitHub/MSCTI/Project/Properties/AssemblyInfo.cs",
+		"/C/Users/Admin/GitHub/MSCTI/CHANGELOG.txt",
+		"/C/Users/Admin/Downloads/aaaaaaaaaaa.txt",
+		"/C/Users/Admin/Downloads/MultiMonitorTool.cfg",
+		"/C/Users/Admin/Documents/Anno 1800/benchmarks/anno1800_benchmark_dx12_2025-05-31-03-20-57.csv",
+		"/C/Users/Admin/AppData/Local/Saber/RoadCraftGame/storage/platform/config/shared_user_settings.cfg",
+		"/C/Users/Admin/AppData/Local/Saber/RoadCraftGame/storage/steam/user/76561198030274214/Main/config/user_profile.cfg",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/20C4EA0D4E58095529897A8EF2C522A1.item",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/FD2C7E6D41439B811BE0AB82BB8C6443.item",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/19CB991D4642258D35AF16A24027D15E.item",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/ADC182FD4C656FD709449C8F7AA45D47.item",
+		"/G/Epic Games/DeadByDaylight/.egstore/19CB991D4642258D35AF16A24027D15E.mancpn",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/ManifestTemp/6788305d38ffac535f02593f3d566ca0d883ab6d.manifest",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/0781B2AD499E7099B5CC438A954A7631.item",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/2907762748DBE47FD9BF0C8F3EA286F6.item",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/68BA00CC49CB0754AEBFD9B24BC42337.item",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/7B3552214D209D8C512809BB5048ACC6.item",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/B29310894D21B76F08F7A5B81BFF3F3D.item",
+		"/C/Users/Admin/Downloads/download/dbd03a56-a5d1-444e-bd53-8230be1cb3e8/playlist.m3u8",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/E0E02B44495208C2225BC2A55C9473EE.item",
+		"/C/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/Pending/FE21065D480E8ABC0659D6B7680DD6A5.item",
+		"/G/Windows Backup/Windows/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/Pending/FE21065D480E8ABC0659D6B7680DD6A5.item",
+		"/G/Windows Backup/Windows/ProgramData/Epic/EpicGamesLauncher/Data/Manifests/E0E02B44495208C2225BC2A55C9473EE.item"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "MSC-Ghost-Car.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
