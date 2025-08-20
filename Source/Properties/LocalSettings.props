@@ -1,6 +1,8 @@
 <Project>
   <PropertyGroup>
-    <MySummerCarModsPath>G:\SteamLibrary\steamapps\common\My Summer Car\Mods\</MySummerCarModsPath>
-	<MySummerCarExePath>G:\SteamLibrary\steamapps\common\My Summer Car\mysummercar.exe</MySummerCarExePath>
+    <MSCInstallPath>$(MSCInstallPath)</MSCInstallPath>
+    <MSCLocalLow>$(MSCLocalLow)</MSCLocalLow>
+    <MSCManagedPath>$(MSCManagedPath)</MSCManagedPath>
+    <MSCModsPath>$(MSCInstallPath)\Mods</MSCModsPath>
   </PropertyGroup>
 </Project>

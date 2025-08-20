@@ -14,6 +14,7 @@
     <LangVersion>7.0</LangVersion>
 
     <MSCManagedDir>$(MSCManagedDir)</MSCManagedDir>
+    <MSCRallySaves>$(MSCRallySaves)</MSCRallySaves>
     <DocumentationFile>bin\Release\GhostCar.xml</DocumentationFile>
   </PropertyGroup>
 
@@ -26,35 +27,35 @@
   
   <ItemGroup>
     <Reference Include="UnityEngine">
-      <HintPath>$(MSCManagedDir)\UnityEngine.dll</HintPath>
+      <HintPath>$(MSCManagedPath)\UnityEngine.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="MSCLoader">
-      <HintPath>$(MSCManagedDir)\MSCLoader.dll</HintPath>
+      <HintPath>$(MSCManagedPath)\MSCLoader.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>$(MSCManagedDir)\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(MSCManagedPath)\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>$(MSCManagedDir)\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>$(MSCManagedPath)\Assembly-CSharp-firstpass.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="cInput">
-      <HintPath>$(MSCManagedDir)\cInput.dll</HintPath>
+      <HintPath>$(MSCManagedPath)\cInput.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="PlayMaker">
-      <HintPath>$(MSCManagedDir)\PlayMaker.dll</HintPath>
+      <HintPath>$(MSCManagedPath)\PlayMaker.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>$(MSCManagedDir)\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(MSCManagedPath)\UnityEngine.UI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>$(MSCManagedDir)\0Harmony.dll</HintPath>
+      <HintPath>$(MSCManagedPath)\0Harmony.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
@@ -65,12 +66,12 @@
     <Message Text="Terminate My Summer Car" Importance="high" />
     <Exec Command="taskkill /F /IM mysummercar.exe" IgnoreExitCode="true" />
       
-    <Message Text="Copying $(TargetPath) to $(MySummerCarModsPath)" Importance="high" />
-    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MySummerCarModsPath)" SkipUnchangedFiles="false" />
+    <Message Text="Copying $(TargetPath) to $(MSCModsPath)" Importance="high" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MSCModsPath)" SkipUnchangedFiles="false" />
 
     <Message Text="Copying Rally Save" Importance="high" />
-    <Copy SourceFiles="C:\Users\Admin\Downloads\Rally_Saves_1a564f9c\satsuma\defaultES2File.txt" DestinationFolder="C:\Users\Admin\AppData\LocalLow\Amistech\My Summer Car" SkipUnchangedFiles="false" />
-    <Copy SourceFiles="C:\Users\Admin\Downloads\Rally_Saves_1a564f9c\satsuma\items.txt" DestinationFolder="C:\Users\Admin\AppData\LocalLow\Amistech\My Summer Car" SkipUnchangedFiles="false" />
+    <Copy SourceFiles="$(MSCRallySaves)\satsuma\defaultES2File.txt" DestinationFolder="$(MSCLocalLow)" SkipUnchangedFiles="false" />
+    <Copy SourceFiles="$(MSCRallySaves)\satsuma\items.txt" DestinationFolder="$(MSCLocalLow)" SkipUnchangedFiles="false" />
 
     <Exec Command="ping 127.0.0.1 -n 2 &gt; nul" />
     <Message Text="Launch My Summer Car" Importance="high" />
