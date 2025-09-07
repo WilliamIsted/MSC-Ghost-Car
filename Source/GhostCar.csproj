@@ -8,7 +8,7 @@
     <TargetFramework>net35</TargetFramework>
     <OutputPath>bin\Release</OutputPath>
     <RootNamespace>GhostCar</RootNamespace>
-    <AssemblyName>Ghost Car</AssemblyName>
+    <AssemblyName>GhostCar</AssemblyName>
     <OutputType>Library</OutputType>
     <Nullable>disable</Nullable>
     <LangVersion>7.0</LangVersion>

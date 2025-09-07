@@ -13,7 +13,6 @@ namespace GhostCar
             public float time;
             public Vector3 position;
             public Quaternion rotation;
-            public Quaternion steering;
         }
 
         public string filename;
@@ -52,7 +51,7 @@ namespace GhostCar
                 }
 
                 string[] parts = line.Split(',');
-                if (parts.Length != 12) continue;
+                if (parts.Length != 8) continue;
 
                 entries.Add(new Entry
                 {
@@ -65,12 +64,7 @@ namespace GhostCar
                         float.Parse(parts[4]),
                         float.Parse(parts[5]),
                         float.Parse(parts[6]),
-                        float.Parse(parts[7])),
-                    steering = new Quaternion(
-                        float.Parse(parts[8]),
-                        float.Parse(parts[9]),
-                        float.Parse(parts[10]),
-                        float.Parse(parts[11]))
+                        float.Parse(parts[7]))
                 });
             }
 
@@ -102,10 +96,6 @@ namespace GhostCar
             transform.position = Vector3.Lerp(a.position, b.position, t);
             transform.rotation = Quaternion.Slerp(a.rotation, b.rotation, t);
 
-            //transform.Find("_Parts/steering/pivot/steering_column/steering_wheel 1");
-            /* transform.Find("wheelFL").localRotation = Quaternion.Slerp(a.steering, b.steering, t);
-            transform.Find("wheelFR").localRotation = Quaternion.Slerp(a.steering, b.steering, t); */
-
             // Prevent physics interference
             var rb = GetComponent<Rigidbody>();
             if (rb != null)
@@ -114,11 +104,6 @@ namespace GhostCar
                 rb.angularVelocity = Vector3.zero;
                 rb.isKinematic = true;
             }
-
-            //steering.rotation = new Quaternion(0, 0, b.steering, 0);
-            //wheelFL.rotation = new Quaternion(0, b.steering, 0, 0);
-            //wheelFR.rotation = new Quaternion(0, b.steering, 0, 0);
-
         }
 
     }

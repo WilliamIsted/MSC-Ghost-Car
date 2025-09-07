@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 
 namespace GhostCar
@@ -20,6 +18,19 @@ namespace GhostCar
             { "Kekmet", GameObject.Find("KEKMET(350-400psi)") },
             { "Ruscko", GameObject.Find("RCO_RUSCKO12(270)") },
             { "Satsuma", GameObject.Find("SATSUMA(557kg, 248)") }
+        };
+
+        public static Dictionary<string, string> VehicleName = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            { "BOAT", "Boat" },
+            { "COMBINE(350-400psi)", "Combine" },
+            { "FERNDALE(1630kg)", "Ferndale" },
+            { "GIFU(750/450psi)", "Gifu" },
+            { "HAYOSIKO(1500kg, 250)", "Hayosiko" },
+            { "JONNEZ ES(Clone)", "Jonnez" },
+            { "KEKMET(350-400psi)", "Kekmet" },
+            { "RCO_RUSCKO12(270)", "Ruscko" },
+            { "SATSUMA(557kg, 248)", "Satsuma" }
         };
 
     }
